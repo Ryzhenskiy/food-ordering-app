@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "jsx": "preserve",
+    "checkJs": true,
+    "paths": {
+      "@/app/*": ["./src/app/*"],
+      "@/models/*": ["./src/models/*"],
+      "@/components/*": ["./src/components/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
